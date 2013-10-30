@@ -21,6 +21,7 @@ public class Activity1 extends Activity implements OnClickListener {
 		tv.setText(text);
 		Button submit = (Button) findViewById(R.id.submit);
 		submit.setOnClickListener(this);
+		
 	}
 
 	@Override
